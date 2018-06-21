@@ -1,5 +1,6 @@
 # romankarpushkin_infra
 romankarpushkin Infra repository
 
-## Homework 06
-Created Packer template
+## Homework 07
+Created GCP instance using terraform.
+Added variables to terraform statements

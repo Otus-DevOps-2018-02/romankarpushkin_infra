@@ -1,0 +1,5 @@
+{
+  "gcp_project":"infra-2000",
+  "source_image_family":"ubuntu-1984-lts",
+  "machine_type":"f1_mega"
+}

@@ -1,6 +1,13 @@
 # romankarpushkin_infra
 romankarpushkin Infra repository
 
+## Homework 09
+
+Configured ansible on local machine
+Created ansible.cfg
+Created inventory
+Created inventory.yml
+
 ## Homework 08
 Created terraform manifests for app and db instances
 Got familiar with modules

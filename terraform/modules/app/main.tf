@@ -3,6 +3,8 @@ resource "google_compute_instance" "app" {
   machine_type = "g1-small"
   zone         = "europe-west1-b"
 
+  tags = ["reddit-app"]
+
   # определение загрузочног диска
   boot_disk {
     initialize_params {
@@ -34,6 +36,19 @@ resource "google_compute_firewall" "firewall_puma" {
   allow {
     protocol = "tcp"
     ports    = ["9292"]
+  }
+
+  source_ranges = ["0.0.0.0/0"]
+  target_tags   = ["reddit-app"]
+}
+
+resource "google_compute_firewall" "firewall_80" {
+  name    = "allow-80-default"
+  network = "default"
+
+  allow {
+    protocol = "tcp"
+    ports    = ["80"]
   }
 
   source_ranges = ["0.0.0.0/0"]

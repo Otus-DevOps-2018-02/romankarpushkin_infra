@@ -1,6 +1,20 @@
 # romankarpushkin_infra
 romankarpushkin Infra repository
 
+## Homework 11
+
+Настроены роли app и db
+Настроены ansible окружения stage и prod
+Подключена коммьюнити роль nginx
+Настроено создание пользователей с помощью плейбука
+Использовано шифрование с помощью ansible-vault
+
+## Homework 10
+
+Created ansible playbook with multiple plays
+Created multiple playbook
+Configured packer configs to use ansible playbooks instead of shell scripts
+
 ## Homework 09
 
 Configured ansible on local machine

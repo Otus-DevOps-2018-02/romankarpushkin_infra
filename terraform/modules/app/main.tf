@@ -3,6 +3,8 @@ resource "google_compute_instance" "app" {
   machine_type = "g1-small"
   zone         = "europe-west1-b"
 
+  tags = ["reddit-app"]
+
   # определение загрузочног диска
   boot_disk {
     initialize_params {

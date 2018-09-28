@@ -1,6 +1,12 @@
 # romankarpushkin_infra
 romankarpushkin Infra repository
 
+## Homework 10
+
+Created ansible playbook with multiple plays
+Created multiple playbook
+Configured packer configs to use ansible playbooks instead of shell scripts
+
 ## Homework 09
 
 Configured ansible on local machine
